@@ -1,0 +1,6 @@
+nome=input('Digite o nome completo: ').strip()
+nome=nome.split()
+print('Primeiro nome: {}' .format(nome[0]))
+ultimoNome=len(nome)
+#print(type(ultimoNome))
+print('Segundo nome: {}' .format(nome[ultimoNome-1]))

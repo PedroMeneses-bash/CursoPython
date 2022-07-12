@@ -1,6 +1,6 @@
 # 007
 nome = input('Qual seu nome ?')
-nota001 = float(input('Qual foi a nota da sua AV1 ? '))
+nota001 = float(input('Qual foi a nota da sua AV1 ?'))
 nota002 = float(input('Qual foi a nota da sua AV2 ?'))
 nota003 = float(input('Qual foi a nota da sua AV3 ?'))
 media = (nota001+nota002+nota003)/3

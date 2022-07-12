@@ -5,5 +5,5 @@ print(len(nome)-nome.count(' '))#Conta o total de char menos a contagem de espa√
 print(nome.find(' '))
 #OU
 nome=nome.split()
-print(len(nome[0]))
+print(len(nome[0]))#imprime comprimento primeiro nome
 

@@ -1,14 +1,14 @@
-#ELIF
+# ELIF
 from datetime import date
 
-nomePessoa=input('Qual seu nome ?')
-dataNascimento=input('Qual data de nascimento ?')
+nomePessoa = input('Qual seu nome ?')
+dataNascimento = input('Qual data de nascimento ?')
 
-charDataInicial=dataNascimento.rfind('/')+1
-anoNascimento=int(dataNascimento[charDataInicial:])
+charDataInicial = dataNascimento.rfind('/')+1
+anoNascimento = int(dataNascimento[charDataInicial:])
 
-anoHoje=date.today().year
-idadePessoa=anoHoje-anoNascimento
+anoHoje = date.today().year
+idadePessoa = anoHoje-anoNascimento
 
 if idadePessoa >= 18:
     print("""{} é maior de idade, tem {} anos de idade.\n
@@ -16,7 +16,7 @@ if idadePessoa >= 18:
     --Titulo Eleitoral\n
     --Reservista Militar\n
     -Documentos Opcionais:\n
-    --Carteira Nacional de Habilitação""" .format(nomePessoa,idadePessoa))
+    --Carteira Nacional de Habilitação""" .format(nomePessoa, idadePessoa))
 
 elif idadePessoa >= 16:
     print("""{} tem {} anos de idade e tem direito a seguintes documentos: \n
@@ -25,4 +25,4 @@ elif idadePessoa >= 16:
 
 else:
     print("""{} tem {} anos de idade e não é obrigado a tirar nenhum documento.""" .format(
-        nomePessoa,idadePessoa))
+        nomePessoa, idadePessoa))

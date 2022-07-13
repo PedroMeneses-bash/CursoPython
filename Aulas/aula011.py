@@ -1,4 +1,4 @@
-#Cores no Terminal
+# Cores no Terminal
 
 #  \033[STYLE;TEXT;BACK M
 #  ex: \033[0;33;44m

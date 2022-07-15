@@ -20,12 +20,16 @@ print(frase.upper().count('o'), '-----------------')
 print(frase.upper().count('O'), '-----------------')
 print(frase.count('o', 0, 13))  # Quantos char de 0 até 13 tem 'o'
 print(frase.find('deo'))  # EM que posição começa 'deo'
+
 # Ele retorna -1 quando não existe uma string na cadeia a ser pesquisada
 print(frase.find('Android'))
+
 # caso tenha a string na variavel, ele retorna TRUE senão FALSE
 print('Curso' in frase)
+
 # substitui no momento da impressão somente
 print(frase.replace('Python', 'Android'))
+
 print(frase)  # como prova que não altera a variavel
 print(frase.upper())  # tudo maiusculo
 print(frase.lower())  # tudo minusculo

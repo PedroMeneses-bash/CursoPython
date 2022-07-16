@@ -17,6 +17,7 @@ aula012= trabalhamos com IF, ELIF, ELSE e calculo de idade por ano, com tratamen
 ------------------------- ATIVIDADES ----------------------------------------------------
 
 005 = tratativa de variaveis
+
 006 = potencia, exemplo de potencia 1/2 q é raiz quadrada
 007 = recebimento de float em variaveis para calculo de média, com IF e ELSE
 008 = tratativa de variaveis e com identificadores de variaveis, caso precise repetir algum valor

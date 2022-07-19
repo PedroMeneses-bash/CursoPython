@@ -12,7 +12,6 @@ for c in range(6, 0, -1):  # for decrescente, como os outros for(i=6;i>0;i--)  -
 for c in range(0, 20, 2):  # de 0 até 20 de 2 em 2
     print(c)
 
-
 n = int(input('Digite o limitador:'))
 for i in range(0, n+1):
     print(i)
